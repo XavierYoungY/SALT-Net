@@ -28,7 +28,9 @@ Please see [GETTING_STARTED.md](docs/get_started.md) for the basic usage of MMDe
 # and you have activated your virtual environment if needed.
 # and with COCO dataset in 'data/coco/'
 
-./tools/dist_train.sh configs/salt/salt_r50_fpn_2x.py 8 --validate
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 PORT=29502 ./tools/dist_train.sh configs/salt/salt_r50_fpn_2x.py 8
+or
+./tools/dist_train.sh configs/salt/salt_r50_fpn_2x.py Your_GPU_number
 ```
 
 ## Inference
