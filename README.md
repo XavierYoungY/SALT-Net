@@ -11,7 +11,9 @@ Object detection aims to localize and classify the objects in a given image, and
 
 
 ## Installation
+```
 conda env create -f salt.yaml
+```
 
 Please refer to [INSTALL.md](https://github.com/open-mmlab/mmdetection) for installation and dataset preparation.
 
