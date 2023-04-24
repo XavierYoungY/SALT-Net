@@ -58,6 +58,15 @@ salt_R2_101_dcnv2_FPN_2x      | Yes | 51.1 | 51.4
 ## BibTeX
 
 ```
+@inproceedings{yang2023rethinking,
+  title={Rethinking the misalignment problem in dense object detection},
+  author={Yang, Yang and Li, Min and Meng, Bo and Huang, Zihao and Ren, Junxing and Sun, Degang},
+  booktitle={Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2022, Grenoble, France, September 19--23, 2022, Proceedings, Part III},
+  pages={427--442},
+  year={2023},
+  organization={Springer}
+}
+
 @article{yang2021rethinking,
   title={Rethinking the Misalignment Problem in Dense Object Detection},
   author={Yang, Yang and Li, Min and Meng, Bo and Ren, Junxing and Sun, Degang and Huang, Zihao},
